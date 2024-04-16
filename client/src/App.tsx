@@ -1,6 +1,8 @@
 import { Routes, Route } from "react-router-dom"
 
 import "./globals.css"
+import LoginForm from "./_auth/forms/LoginForm"
+import { Home } from "./_root/pages"
 
 const App = () => {
     return (
