@@ -9,11 +9,11 @@ import RootLayout from "./_root/RootLayout"
 
 const App = () => {
     return (
-        <main className="flex h-screen">
+        <main className="flex h-screen dark">
             <Routes>
                 <Route element={<AuthLayout />}>
                     <Route path="/login" element={<LoginForm />} />
-                    <Route path="/login" element={<SignupForm />} />
+                    <Route path="/signup" element={<SignupForm />} />
                 </Route>
 
                 <Route element={<RootLayout />}>
