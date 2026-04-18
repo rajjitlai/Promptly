@@ -5,8 +5,7 @@ import {
     Users, 
     Bookmark, 
     ImagePlus, 
-    LogOut, 
-    Settings 
+    LogOut 
 } from "lucide-react";
 import { Button } from "../ui/button";
 
@@ -46,15 +45,7 @@ const LeftSidebar = () => {
         <nav className="hidden md:flex px-6 py-10 flex-col justify-between min-w-[270px] bg-zinc-950 border-r border-zinc-900">
             <div className="flex flex-col gap-11">
                 <Link to="/" className="flex gap-3 items-center">
-                    <img 
-                        src="/assets/images/logo.svg" 
-                        alt="logo" 
-                        className="w-8 h-8"
-                        onError={(e) => {
-                            (e.target as HTMLImageElement).src = 'https://raw.githubusercontent.com/adrianhajdin/social_media_app/main/public/assets/images/logo.svg';
-                        }}
-                    />
-                    <h2 className="h3-bold text-primary">iSeen</h2>
+                    <h2 className="h3-bold text-primary">Promptly</h2>
                 </Link>
 
                 <div className="flex flex-col gap-1">
@@ -83,12 +74,12 @@ const LeftSidebar = () => {
 
             <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-3 px-4 py-2 border-t border-zinc-900 pt-8">
-                    <div className="w-10 h-10 rounded-full bg-primary flex-center text-white font-bold">
+                    <div className="min-w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">
                         JD
                     </div>
-                    <div className="flex flex-col">
-                        <p className="body-bold text-white">John Doe</p>
-                        <p className="small-regular text-zinc-500">@johndoe</p>
+                    <div className="flex flex-col overflow-hidden">
+                        <p className="body-bold text-white truncate">John Doe</p>
+                        <p className="small-regular text-zinc-500 truncate">@johndoe</p>
                     </div>
                 </div>
 

@@ -9,15 +9,7 @@ const Topbar = () => {
         <section className="sticky top-0 z-50 md:hidden bg-zinc-950 border-b border-zinc-900 w-full">
             <div className="flex-between py-4 px-5">
                 <Link to="/" className="flex gap-3 items-center">
-                    <img 
-                        src="/assets/images/logo.svg" 
-                        alt="logo" 
-                        className="w-8 h-8"
-                        onError={(e) => {
-                            (e.target as HTMLImageElement).src = 'https://raw.githubusercontent.com/adrianhajdin/social_media_app/main/public/assets/images/logo.svg';
-                        }}
-                    />
-                    <h2 className="h3-bold text-primary">iSeen</h2>
+                    <h2 className="h3-bold text-primary">Promptly</h2>
                 </Link>
 
                 <div className="flex gap-4 items-center">

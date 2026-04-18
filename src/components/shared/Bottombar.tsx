@@ -2,7 +2,6 @@ import { Link, useLocation } from "react-router-dom";
 import { 
     Home, 
     Compass, 
-    Users, 
     Bookmark, 
     ImagePlus 
 } from "lucide-react";

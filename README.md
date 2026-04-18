@@ -1,30 +1,68 @@
-# React + TypeScript + Vite
+# 🚀 Promptly - AI Prompt Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Promptly is a modern, high-performance social marketplace for AI artists and prompt engineers. It allows users to share their AI-generated masterpieces, sell high-quality prompts, and discover creative inspiration across various AI models like Midjourney, DALL-E, and Stable Diffusion.
 
-Currently, two official plugins are available:
+## ✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **High-Tech Aesthetic:** A sophisticated dark-mode UI with neon accents, optimized for showcasing visual content.
+- **AI-Centric Feed:** Discover masterpieces with integrated prompt details, model specs, and aspect ratios.
+- **Prompt Tools:** One-click "Copy Prompt" and interactive "Run Prompt" CTA on masterpiece hover.
+- **Premium Tiers:** Support for PRO prompt engineers and exclusive prompt access.
+- **Responsive Navigation:** 
+  - **Desktop:** Professional Left Sidebar for deep navigation.
+  - **Tablet/Mobile:** Smart Topbar and intuitive Bottombar for on-the-go browsing.
+- **Authentication:** Sleek, split-screen login and signup pages.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React 18** (Vite)
+- **TypeScript**
+- **Tailwind CSS** (Custom Design System)
+- **React Router DOM**
+- **Lucide React** (Professional Icons)
+- **Radix UI** (Accessible primitives)
 
-- Configure the top-level `parserOptions` property like this:
+## 🎨 Design System
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Promptly uses a custom-built design system defined in `src/globals.css`:
+- **Background:** `#0F0F23` (Deep Space)
+- **Primary:** `#7C3AED` (Electric Purple)
+- **Secondary:** `#A78BFA` (Soft Violet)
+- **Accent:** `#F43F5E` (Rose)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/rajjitlai/Promptly
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📱 Responsiveness
+
+The application is fully responsive across all major breakpoints:
+- **Mobile (375px+):** Topbar + Bottombar navigation.
+- **Tablet (768px+):** Left Sidebar becomes visible.
+- **Desktop (1024px+):** Optimized feed layout and "Top Creators" sidebar.
+
+---
+
+*Built with ❤️ for AI Creators.*
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
