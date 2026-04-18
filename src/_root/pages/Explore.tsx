@@ -1,4 +1,4 @@
-import { Search, Grid, ListFilter } from "lucide-react";
+import { Search, ListFilter } from "lucide-react";
 
 const Explore = () => {
     // Placeholder art grid data
